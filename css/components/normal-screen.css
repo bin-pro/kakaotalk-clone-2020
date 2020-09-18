@@ -1,0 +1,14 @@
+.normal-screen__header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.4);
+  border-top: var(--main-border);
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.normal-screen {
+  margin-top: 25px;
+}
+.normal-screen__title {
+  color: rgba(0, 0, 0, 0.6);
+}

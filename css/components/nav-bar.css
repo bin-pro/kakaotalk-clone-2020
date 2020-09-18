@@ -16,15 +16,6 @@
   color: #2e363e;
 }
 .nav__notification {
-  background-color: tomato;
-  width: 25px;
-  height: 25px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
   position: absolute;
   /*Remember! position:absolute is always moved by near "REALATIVE Parent"*/
   left: 15px;
@@ -36,6 +27,12 @@
   height: 6px;
   border-radius: 4px;
   position: absolute;
+}
+.nav__dot-position1 {
   left: 30px;
   top: -10px;
+}
+.nav__dot-position2 {
+  top: 50px;
+  right: 18px;
 }
