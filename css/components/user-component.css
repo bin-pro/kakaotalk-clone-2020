@@ -56,3 +56,6 @@
   display: block;
   margin-bottom: 10px;
 }
+.user-component__text i {
+  color: tomato;
+}

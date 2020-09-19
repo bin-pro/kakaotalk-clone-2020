@@ -39,7 +39,7 @@
   position: absolute;
   width: 90px;
   height: 90px;
-  border-radius: 5px;
+  border-radius: 10px;
   right: 0px;
   top: 20px;
   background-color: gray;
@@ -49,13 +49,16 @@
   position: absolute;
   width: 60px;
   height: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   border-radius: 10px;
   font-size: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 0px;
+  right: 5px;
   top: 85px;
+}
+.open-chat__likes span {
+  margin-left: 3px;
 }
