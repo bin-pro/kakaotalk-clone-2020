@@ -10,3 +10,13 @@
 .icon-row__icon i {
   margin-bottom: 18px;
 }
+.icon-row__44width {
+  width: 44%;
+}
+.icon-row__add-margin {
+  margin: 40px 0px;
+}
+
+.icon-row__72width {
+  width: 72%;
+}
