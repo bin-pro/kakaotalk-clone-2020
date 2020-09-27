@@ -12,3 +12,14 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+.fa-cog:hover {
+  animation: cogSpin 2s linear infinite;
+}
+@keyframes cogSpin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

@@ -50,3 +50,22 @@
 .open-chat__likes span {
   margin-left: 3px;
 }
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.5);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+.open-chat__likes:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
