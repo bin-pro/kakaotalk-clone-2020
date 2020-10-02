@@ -1,2 +1,2 @@
-#KAKAOTALK Clone 2020 Update
-HTML & CSS are so much fun!
+KAKAOTALK Clone 
+Hi guys! I made this for my portfolio and practicing how to make website. 
